@@ -12,6 +12,9 @@ namespace TestGithubApp
         {
             Console.WriteLine("Hello world");
             Console.ReadKey();
+
+            var name = Console.ReadLine();
+            Console.WriteLine($"Hello, {name}");
         }
     }
 }
